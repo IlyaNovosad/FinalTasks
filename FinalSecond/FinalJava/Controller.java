@@ -43,4 +43,11 @@ public class Controller {
         }
         return String.valueOf(false);
     }
+    public static void fruitCounter(String[] words) {
+        int count = 0;
+        for (String ignored : words) {
+            count++;
+        }
+        System.out.println("Количество слов в файле равно: " + count);
+    }
 }
